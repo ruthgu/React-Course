@@ -6,4 +6,5 @@ let app=express();
 //(will return 'view/index.html')
 app.use(express.static("view"));
 //config the web api to listen to http request in port 3500
+//port must be higher then 80
 app.listen(3500);
